@@ -1,5 +1,7 @@
 class BooksController < ApplicationController
   def index
+      # 本を全件取得
+      @books = Book.all
       @book = Book.new
   end
 
