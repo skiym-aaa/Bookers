@@ -8,4 +8,6 @@
   <br>
   <%= f.submit 'Update Book' %>
 <% end %>
-<p><a href="#">Show</a>  |  <a href="#">Back</a></p>
+<p><%= link_to "Show", book_path %>
+  |  
+<%= link_to "Back", books_path %></p>
