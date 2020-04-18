@@ -69,3 +69,9 @@ group :test do
     gem 'shoulda-matchers'
     gem 'rails-controller-testing'
 end
+
+# MYSQL利用のために必要
+gem 'dotenv-rails'
+group :production do
+  gem 'mysql2'
+end
